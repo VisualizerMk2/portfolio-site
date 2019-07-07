@@ -1,0 +1,28 @@
+@import "../styles/variables.scss";
+
+.contact {
+  font-family: $nunito;
+  font-size: $font-size-sm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 $xs-size;
+  h1 {
+    padding-top: $m-size;
+    font-family: $nunito;
+  }
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: $m-size;
+  a {
+    color: $primary;
+  }
+}

@@ -1,0 +1,89 @@
+@import "../styles/variables.scss";
+
+.header {
+  font-family: $nunito;
+  margin: $m-size auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 960px;
+  h1 {
+    font-family: $nunito;
+    margin-bottom: $xs-size;
+  }
+  p {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 $xs-size;
+    font-size: $font-size-md;
+  }
+}
+.projects {
+  margin: 0 auto;
+  padding: 0 $s-size;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px dashed $primary;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: $secondary;
+  color: #fff;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0;
+  transition: all 0.3s;
+  text-decoration: none;
+  &:hover {
+    background: white;
+    color: $primary;
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  font-family: $nunito;
+  background: $primary;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: $xs-size $m-size;
+  margin: $m-size;
+  // box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+  //   0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  border-radius: 8px;
+  transition: box-shadow 0.5s ease-in-out;
+  h1 {
+    font-family: $nunito;
+    text-align: center;
+    margin: $s-size 0;
+  }
+  p {
+    font-weight: 600;
+    font-size: $font-size-sm;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 540px) {
+  .cards {
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .card {
+    flex: 1;
+  }
+}

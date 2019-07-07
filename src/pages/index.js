@@ -1,3 +1,28 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+import Hero from "../components/hero"
+import Header from "../components/header"
+import Skills from "../components/skills"
+import Experience from "../components/experience"
+import Projects from "../components/projects"
+import Footer from "../components/footer"
+import Contact from "../components/contact"
+import Head from "../components/head"
+
+import "../styles/index.scss"
+
+const HomePage = () => {
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
+  )
+}
+
+export default HomePage

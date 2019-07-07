@@ -1,0 +1,87 @@
+@import "../styles/variables.scss";
+
+.skillsBase {
+  background: white;
+}
+.header {
+  font-family: $nunito;
+  margin: $m-size auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 960px;
+  h1 {
+    font-family: $nunito;
+    margin-bottom: $xs-size;
+  }
+  p {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 $xs-size;
+    font-size: $font-size-md;
+  }
+}
+.skills {
+  margin: 0 auto;
+  padding: $s-size;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+}
+
+.cardContainer {
+  padding: $xs-size;
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+}
+.card {
+  flex: 1;
+  font-family: $nunito;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem $s-size;
+  margin: $m-size;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  border-radius: 8px;
+  transition: box-shadow 0.5s ease-in-out;
+  h2 {
+    color: $primary;
+    font-family: $nunito;
+    text-align: center;
+  }
+
+  li {
+    font-size: $font-size-md;
+    font-weight: 600;
+  }
+}
+.card:hover {
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+@media (min-width: 540px) {
+  .skills {
+    flex-direction: row;
+    max-width: 1000px;
+  }
+}
