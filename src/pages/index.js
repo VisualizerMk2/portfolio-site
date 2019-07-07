@@ -14,6 +14,7 @@ import "../styles/index.scss"
 const HomePage = () => {
   return (
     <div>
+      <Head />
       <Header />
       <Hero />
       <Skills />
