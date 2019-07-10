@@ -1,6 +1,7 @@
 @import "../styles/variables.scss";
 
 .container {
+  font-family: $nunito;
   margin: $xl-size auto;
   display: flex;
   flex-direction: column;
@@ -9,6 +10,13 @@
 }
 
 .header {
+  font-family: $nunito;
   font-size: 5rem;
-  color: $primary;
+  color: $light-purple;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  .container {
+    margin: $l-size $l-size;
+  }
 }

@@ -15,6 +15,12 @@ const Contact = () => {
             </a>
           </li>
           <li>
+            Github:{" "}
+            <a href="https://github.com/VisualizerMk2" target="_blank">
+              VisualizerMk2
+            </a>
+          </li>
+          <li>
             LinkedIn:{" "}
             <a
               href="https://www.linkedin.com/in/aaronmbarnett/"

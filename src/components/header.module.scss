@@ -1,8 +1,8 @@
 @import "../styles/variables.scss";
 
 .headerBase {
-  background: $primary;
-  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.25);
+  background: $dark-black;
+  box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.25);
 }
 .container {
   margin: 0 auto;
@@ -44,7 +44,7 @@
 }
 
 .activeNavItem {
-  color: $tertiary;
+  color: $light-purple;
 }
 @media (min-width: 540px) {
   .header {

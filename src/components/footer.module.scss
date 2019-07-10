@@ -3,12 +3,12 @@
 .footerBase {
   height: 100%;
   font-family: $nunito;
-  background: $primary;
+  background: $dark-black;
   color: white;
   text-align: center;
   p {
     padding-top: $m-size;
-    font-size: $font-size-md;
+    font-size: $font-size-sm;
     font-weight: 600;
   }
 }

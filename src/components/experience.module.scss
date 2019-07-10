@@ -5,8 +5,9 @@
     font-family: $nunito;
   }
   padding-bottom: $l-size;
-  background: $primary;
-  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.25);
+  background: $dark-black;
+  border-bottom: 7px solid $dark-purple;
+  box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.25);
 }
 
 .header {
@@ -29,7 +30,7 @@
   display: inline-block;
   border: 2px solid white;
   border-radius: 10px;
-  background: $secondary;
+  background: $purple;
   color: #fff;
   font-size: $font-size-sm;
   font-weight: 600;
@@ -38,8 +39,8 @@
   transition: all 0.3s;
   text-decoration: none;
   &:hover {
-    background: white;
-    color: $primary;
+    background: $light-purple;
+    color: $dark-black;
   }
 }
 
@@ -65,16 +66,17 @@
     width: 6px;
     margin: 0 auto;
     padding-top: 50px;
-    background: #fff;
+    background: $light-purple;
   }
 
   div {
+    color: $dark-black;
     border-radius: 8px;
     position: relative;
     bottom: 0;
     width: 400px;
     padding: 1rem;
-    background: white;
+    background: $light-purple;
   }
 
   li:nth-child(odd) div {
@@ -92,7 +94,7 @@
     bottom: 0;
     width: 25px;
     height: 25px;
-    background: $secondary;
+    background: $dark-purple;
     transform: translateX(-50%);
     border-radius: 50%;
   }
@@ -109,13 +111,13 @@
   li:nth-child(odd) div:before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent $light-purple transparent transparent;
   }
 
   li:nth-child(even) div:before {
     right: -15px;
     border-width: 8px 0 8px 16px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent $light-purple;
   }
 }
 
@@ -152,7 +154,7 @@
     li:nth-child(even) div::before {
       left: -15px;
       border-width: 8px 16px 8px 0;
-      border-color: transparent #eee transparent transparent;
+      border-color: transparent $light-purple transparent transparent;
     }
   }
 }

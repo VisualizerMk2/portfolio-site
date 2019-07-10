@@ -8,7 +8,7 @@ const Hero = () => {
       <div>
         <img
           src={profilePic}
-          alt="Profile Image"
+          alt="Profile Pic"
           className={heroStyles.profilePic}
         />
       </div>

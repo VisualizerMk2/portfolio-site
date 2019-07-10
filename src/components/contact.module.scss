@@ -23,6 +23,14 @@
   list-style-type: none;
   margin-bottom: $m-size;
   a {
-    color: $primary;
+    color: $purple;
+  }
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .contactList {
+    li {
+      margin-bottom: 0.4rem;
+    }
   }
 }

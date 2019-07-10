@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: white;
+  background: transparent;
 }
 
 .cardContainer {
@@ -46,7 +46,7 @@
 .card {
   flex: 1;
   font-family: $nunito;
-  background: #fff;
+  background: $light-purple;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,7 +57,7 @@
   border-radius: 8px;
   transition: box-shadow 0.5s ease-in-out;
   h2 {
-    color: $primary;
+    color: $dark-purple;
     font-family: $nunito;
     text-align: center;
   }
@@ -79,7 +79,7 @@
   margin: 0;
 }
 
-@media (min-width: 540px) {
+@media (min-width: $desktop-breakpoint) {
   .skills {
     flex-direction: row;
     max-width: 1000px;
