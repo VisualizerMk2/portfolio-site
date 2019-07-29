@@ -1,5 +1,5 @@
 import React from "react"
-import profilePic from "../img/profilepic.jpg"
+import profilePic from "../img/profilepic2.jpg"
 import heroStyles from "./hero.module.scss"
 
 const Hero = () => {
