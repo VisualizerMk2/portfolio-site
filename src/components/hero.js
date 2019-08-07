@@ -1,17 +1,11 @@
 import React from "react"
-import profilePic from "../img/profilepic2.jpg"
+import profilePic from "../img/thisdotAaron.png"
 import heroStyles from "./hero.module.scss"
 
 const Hero = () => {
   return (
     <section id="hero" className={heroStyles.hero}>
-      <div>
-        <img
-          src={profilePic}
-          alt="Profile Pic"
-          className={heroStyles.profilePic}
-        />
-      </div>
+      <div className={heroStyles.profilePicContainer}></div>
 
       <div className={heroStyles.heroTextBase}>
         <div className={heroStyles.heroText}>

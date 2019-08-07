@@ -14,7 +14,7 @@ const Experience = () => {
         <a
           className={expStyles.btn}
           target="_blank"
-          href="https://drive.google.com/file/d/1x4fg1xDvYtv2A7mTjR4mxSjyP9RoWtb0/view?usp=sharing"
+          href="https://drive.google.com/file/d/1HYvYP1J4MO_SCEztu_2Fxs-FIRdlS_z1/view?usp=sharing"
         >
           Full Resume
         </a>

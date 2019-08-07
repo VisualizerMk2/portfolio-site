@@ -39,7 +39,7 @@ const Header = () => {
                   className={headerStyles.navItem}
                   href="#experience"
                 >
-                  Resume
+                  Résumé
                 </AnchorLink>
               </li>
               <li>
